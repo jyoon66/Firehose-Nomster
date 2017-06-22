@@ -64,3 +64,6 @@ gem 'simple_form'
 
 # Use font-awesome-rails gem
 gem "font-awesome-rails"
+
+# Use Devise
+gem 'devise'
