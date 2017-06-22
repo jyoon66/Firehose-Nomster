@@ -61,3 +61,6 @@ end
 
 # Use SimpleForm
 gem 'simple_form'
+
+# Use font-awesome-rails gem
+gem "font-awesome-rails"
