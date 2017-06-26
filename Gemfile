@@ -70,3 +70,6 @@ gem 'devise'
 
 # Use Geocoder
 gem "geocoder"
+
+# Use Figaro
+gem "figaro"
