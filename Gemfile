@@ -67,3 +67,6 @@ gem "font-awesome-rails"
 
 # Use Devise
 gem 'devise'
+
+# Use Geocoder
+gem "geocoder"
