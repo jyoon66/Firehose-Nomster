@@ -9,6 +9,6 @@ class CreateComments < ActiveRecord::Migration[5.0]
     end
 
     add_index :comments, [:user_id, :place_id]
-    add_index :commnets, :place_id
+    add_index :comments, :place_id
   end
 end
