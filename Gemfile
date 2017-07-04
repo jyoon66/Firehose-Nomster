@@ -76,3 +76,9 @@ gem "figaro"
 
 # Use Carrierwave
 gem 'carrierwave', '~> 1.0'
+
+# Add Pagination
+gem 'will_paginate', '~> 3.1.0'
+
+# Add Bootstrap-style Pagination
+gem 'bootstrap-will_paginate'
