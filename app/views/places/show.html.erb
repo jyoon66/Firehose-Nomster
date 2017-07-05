@@ -7,6 +7,7 @@
   <% @place.photos.each do |photo| %>
     <%= image_tag photo.picture %>
     <%= photo.caption %>
+    <%= link_to 'Delete', photo_path(@place), method: delete, data: {confirm: 'Are you sure you want to delete this?'}, class: 'btn btn-danger' %>
   <% end %>
 
 <% if @place.latitude.present? && @place.longitude.present? %>

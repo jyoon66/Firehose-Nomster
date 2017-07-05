@@ -72,10 +72,11 @@ gem 'devise'
 gem "geocoder"
 
 # Use Figaro
-gem "figaro"
+gem 'figaro'
 
 # Use Carrierwave
 gem 'carrierwave', '~> 1.0'
+gem 'fog'
 
 # Add Pagination
 gem 'will_paginate', '~> 3.1.0'
