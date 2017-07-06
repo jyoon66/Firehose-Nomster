@@ -76,7 +76,7 @@ gem 'figaro'
 
 # Use Carrierwave
 gem 'carrierwave', '~> 1.0'
-gem 'fog'
+gem 'fog-aws'
 
 # Add Pagination
 gem 'will_paginate', '~> 3.1.0'
